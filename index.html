@@ -1,0 +1,73 @@
+<!DOCTYPE html>  
+<html lang="pt-br">
+	 <head>  
+		   	<meta charset="utf-8">
+		   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		  	<title>Desafio</title>  
+			  
+			<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"/>  
+		  	<link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+			<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+			<link href="vendor/bootstrap/css/validationEngine.jquery.css" rel="stylesheet" media="screen">
+			<link href="vendor/bootstrap/css/jquery.dataTables.min.css" rel="stylesheet" media="screen">
+			<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+			<link href="css/style.css" rel="stylesheet" media="screen">
+
+			
+
+</head>
+<body>
+	
+	<div class="container"> 
+
+		   	<h1 class="letra text-center my-5">Desafio</h1>
+			<div id="list">
+				<table id="table" class="display"></table>
+				<div class="form-group d-flex justify-content-center my-3">
+					<button type="submit" class=" submit btn btnverde " id="add">Inserir dados</button>
+				</div>
+			</div>
+
+
+    	<form class="form-horizontal" role="form" id="caminhoId">
+    		<div class="form-group">
+    			<label for="seq" class="col-sm-2 control-label">ID</label>
+    			<div class="col-sm-6">
+    				<p class="form-control-static" id="seq"></p>
+    			</div>
+    		</div>
+    		<div class="form-group">
+    			<label for="nome" class="col-sm-2 control-label">Nome</label>
+    			<div class="col-sm-6">
+    				<input type="text" class="form-control" id="nome" placeholder="Digite o nome" required>
+          		</div>
+          	</div>
+    		<div class="form-group">
+    			<label for="sobrenome" class="col-sm-2 control-label">Sobrenome</label>
+    			<div class="col-sm-6">
+    				<input type="text" class="form-control" id="sobrenome" placeholder="Digite o sobrenome" required>
+          		</div>
+    		</div>
+    		<div class="form-group">
+    			<label for="avatar" class="col-sm-2 control-label">Avatar</label>
+    			<div class="col-sm-6">
+    				<input type="text" class="form-control" id="avatar" required>
+          		</div>
+    		</div>
+    		<div class="form-group">
+    			<div class="col-sm-offset-2 col-sm-8">
+    				<button class="btn btn-default" id="cancel">Cancelar</button>
+    				<button type="submit" class="submit btn btn-primary" id="save">Salvar</button>
+    			</div>
+    		</div>
+    	</form>
+	</div>
+</body>
+<script type="text/javascript" src="vendor/jquery/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="vendor/jquery/bootstrap-3.1.1.min.js"></script>		<script type="text/javascript" src="vendor/jquery/jquery.validationEngine-2.6.2.js"></script>
+<script type="text/javascript" src="vendor/jquery/jquery.validationEngine-en.js"></script>
+<script  type="text/javascript" src="vendor/jquery/jquery.dataTables-1.10.0.min.js"></script>
+<script  type="text/javascript" src="js/index.js"></script>
+</html>
